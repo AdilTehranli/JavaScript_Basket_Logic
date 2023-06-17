@@ -22,7 +22,7 @@
       <div class="all_head d-flex justify-content-between ">
 
         <nav class="navbar navbar-expand-lg navbar-light mt-4 ">
-          <a class="navbar-brand" href="#">Tehranli Pizza Shop</a>
+          <a class="navbar-brand" href="#">London Pizza Shop</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -32,6 +32,12 @@
             <ul class="navbar-nav mr-auto gap-3 ">
               <li class="nav-item active">
                 <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">More</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
@@ -61,10 +67,11 @@
 
 
         <div class="shop_card">
-          <label for="">
-            <h3>Cart</h3>
-          </label>
-          <i class="fa-solid fa-cart-shopping"></i>
+        
+          <div class="cart_icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+              <div class="count"><sup  class="total_count">0</sup></div>
+          </div>
         </div>
 
 
@@ -72,15 +79,56 @@
       <div class="all_cart d-flex gap-4">
 
 
-        <div class="main_card card" style="width: 18rem;">
+        <div class="main_card card" data-id="4" style="width: 18rem;">
           <img
-            src="https://www.allrecipes.com/thmb/0xH8n2D4cC97t7mcC7eT2SDZ0aE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6776_Pizza-Dough_ddmfs_2x1_1725-fdaa76496da045b3bdaadcec6d4c5398.jpg"
+            src="https://www.papajohns.az/uploads/images/pizza/New-York-Style-Pepperoni.jpg"
             class="card-img-top" alt="">
           <div class="carts card-body">
             <h5 class="card-title">Pepperoni</h5>
-            <p class="card-text"> 15$ </p>
-              <div class="btn">
-                <button>Add To Cart</button>
+            <p class="card-text"> 15 </p>
+              <div class="cart_button btn">
+               Add To Cart
+              </div>
+          </div>
+        </div>
+
+        <div class="main_card card" data-id="1" style="width: 18rem;">
+          <img
+            src="https://www.papajohns.az/uploads/images/pizza/papamiks-sayt.png"
+            class="card-img-top" alt="">
+          <div class="carts card-body">
+            <h5 class="card-title">Mozzarella </h5>
+            <p class="card-text"> 32 </p>
+              <div class="cart_button btn">
+               Add To Cart
+              </div>
+          </div>
+        </div>
+
+
+        <div class="main_card card" data-id="2" style="width: 18rem;">
+          <img
+            src="https://www.papajohns.az/uploads/images/pizza/Cheddar-Dabl-Burger.png"
+            class="card-img-top" alt="">
+          <div class="carts card-body">
+            <h5 class="card-title">Marqarita  </h5>
+            <p class="card-text"> 12 </p>
+              <div class="cart_button btn">
+                Add To Cart
+              </div>
+          </div>
+        </div>
+
+        <div class="main_card card" data-id="3" style="width: 18rem;">
+          <img
+            src="https://www.papajohns.az/uploads/images/pizza/vegetarian-acili.png"
+            class="card-img-top" alt="">
+          <div class="carts card-body">
+            <h5 class="card-title">Çiken Ranç
+            </h5>
+            <p class="card-text"> 23 </p>
+              <div class="cart_button btn">
+              Add To Cart
               </div>
           </div>
         </div>
